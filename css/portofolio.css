@@ -130,13 +130,14 @@ nav .nav-list li a {
     margin-left: 55px;
     font-size: 15px;
     font-weight: 600;
-    text-decoration: none; 
+    text-decoration: none; /* Tambahkan properti ini */
 }
 
-nav .nav-list li:not(:last-child) a:hover{
+nav .nav-list li:not(:last-child) a:hover {
     color: #2ecc71;
-    transition:  .4s;
+    transition: .4s;
 }
+
 nav .nav-list li.btn a{
     display: inline-block;
     background: transparent;
