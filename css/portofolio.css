@@ -124,14 +124,15 @@ nav .nav-list li{
     display: inline-block;
     
 }
-nav .nav-list li a{
+nav .nav-list li a {
     display: inline-block;
     color: #eee;
     margin-left: 55px;
     font-size: 15px;
     font-weight: 600;
-     text-decoration: none;
+    text-decoration: none; 
 }
+
 nav .nav-list li:not(:last-child) a:hover{
     color: #2ecc71;
     transition:  .4s;
